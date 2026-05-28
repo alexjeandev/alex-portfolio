@@ -9,7 +9,7 @@
 
             <div className='projects-grid'>
                 {projects.map((project) => (
-                    <div key={project.id} className='project-card'>
+                    <div key={project.id} className='project-card visible'>
                         <h3>{project.title}</h3>
                         <p>{project.description}</p>
                     </div>
