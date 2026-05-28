@@ -1,3 +1,6 @@
+import Globe from './Globe'
+
+
 function Hero() {
     return (
         <section className="hero">
@@ -17,9 +20,7 @@ function Hero() {
             </div>
 
             <div className="hero-globe">
-                <div className="globe-placeholder">
-                    🌍 Globe Coming Soon
-                </div>
+                <Globe /> 
             </div>
         </section>
     )
