@@ -218,3 +218,37 @@ html, body {
   font-size: 14px;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
+
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 24px;
+    margin: 16px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-globe {
+    width: 250px;
+    height: 250px;
+    flex: 0 0 250px;
+    align-self: center;
+  }
+
+  .hero-buttons {
+  justify-content: center;
+}
+
+.section {
+  margin: 0 16px 24px;
+  padding: 18px;
+}
+
+.project-card {
+  min-width: 200px;
+}
+.project-card {
+  min-width: 160px;
+}
+}
